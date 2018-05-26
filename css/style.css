@@ -1,0 +1,155 @@
+/* .visibile {animation: alpha 5s forwards;}
+
+@keyframes alpha {
+  from {opacity: 0;}
+  to   {opacity: 1}
+}  */
+
+@media screen and (orientation: portrait) {
+    /*0***0****0******************************************************************************************+++++++********0*/    
+ @media(min-width:0){
+
+} 
+ 
+@media(min-width:230px){ /*  320 */
+/*********GENERAL*230*******/ 
+*{padding:0;margin:0;}
+html{background-color:red;height:100%;font-family: Arial, Helvetica, sans-serif;color:#fff}  
+body{background-color:yellow;height:100%;} 
+
+
+/********NEW*NAVBAR*230*******/ 
+
+header{position:fixed;width:100vw;background-color:salmon}
+.logo{
+  padding:0.5rem;
+  font-size: 2rem;
+  float:left;
+  text-decoration: none;
+  color: #fff;
+}
+ /* background-color:blueviolet; */
+
+.logo::before{
+content: '\265C'
+}
+/* 265C */
+
+#toggleNav{
+  
+   float:right;
+   border-left:1px solid #666;
+   text-align: center;
+   width:70px;
+   height:65px;
+   /* background-color:blue; */
+}
+
+#toggleNav:before{
+  content: "\2261";
+  color: #fff;
+  font-size: 3rem;
+  line-height: 4rem;
+  /* background-color:green; */
+}
+
+
+#toggleNav.active:before{
+  color: #fff;
+  font-size: 2.2rem;
+  content: '\2716';
+  line-height: 4rem;
+  /* content: '\78';    */
+   /* background-color:green; */
+}
+
+
+
+nav{
+  display:none;
+  clear:both;
+  /* padding: 0.5rem;
+  margin: 0 0.5rem; */
+  /* background-color:red; */
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-align:center;
+  font-size: 1.5rem;
+  /* padding: 0.5rem; */
+  /* background-color:pink; */
+}
+
+li{
+  padding: 1.5rem;
+  border-bottom: 1px solid #666;
+  /* background-color:green; */
+}
+
+li:nth-of-type(1){
+  border-top: 1px solid #666;
+}
+
+li:nth-of-type(5){
+  border:none;
+}
+
+li a{
+  text-decoration: none;
+  color:#fff;
+}
+/********END*NAVBAR*230*******/ 
+
+
+
+/*********PORTFOLIO*230*******/ 
+#home{
+  min-height:100vh;
+  padding: 8rem 1rem;
+  color:#333;
+  background-color:yellowgreen;
+}
+#about{
+  min-height:100vh;
+  padding: 8rem 1rem;
+  color:#333;
+  background-color:peru;
+}
+#projects{
+  min-height:100vh;
+  padding: 8rem 1rem;
+  color:#333;
+  background-color:turquoise;
+}
+#blog{
+  min-height:100vh;
+  padding: 8rem 1rem;
+  color:#333;
+  background-color:maroon;
+}
+
+
+}
+
+
+/*320***XS****320**************************************************************************************************260*/
+@media(min-width:320px){ /* 320x533  */
+/*********PORTFOLIO*320*******/ 
+  
+
+}
+
+
+/*320***XS****320**************************************************************************************************260*/
+@media(min-width:576px){
+
+ 
+}
+
+}
+
+   
+ 
